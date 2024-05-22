@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+}
+h2 {
+	background-color: #FFA500; 
+	text-align: center;
+	font-size: 39 px;
+	text-shadow:#1134A6 0px 0 10px;
+	padding: 50px 50px 50px;
+	margin-bottom: 0px;
+}
+h3 {
+	color: 93294e;
+	text-align: center;
+	font-weight: normal;
+	font-family: Harlow Solid;
+	font-size: 39px;
+}
+@font-face {
+	font-family: Harlow Solid;
+	src: local(Harlow Solid),
+		url('/fonts/HARLOWSI.ttf') format('ttf');
+}
+.text-1 {
+	font-family: Harlow Solid;
+}
+.brb {
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 10.5%;
+}
+.pdp {
+	color: #FFF;
+	text-shadow:#1134A6 0px 0 10px;
+}
+nav {
+    background-color: #ffab00;
+	height: 100%;
+    width: 10.5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+	text-align: center; 
+	line-height: 60px;
+	border: 0px solid white;
+}
+nav ul li ul li .pdp {
+	text-shadow:#FFFF00 0px 0 10px;
+	font-size: 15px;
+	color:#93294e;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	margin-left: -10%;
+	padding-left: 0;
+}
+nav ul li a {
+	background-color: #ffab00; 
+	text-align: center; 
+	display: block;
+	width: 100%; 
+	height: 40px; 
+	line-height: 30px; 
+	margin: 2px 0px 2px 0px;
+	font-family: Avignon Pro;
+}
+nav ul li ul li a{
+	background-color: #ffcc00;
+	margin: 2px 0px 3px 0px;
+	padding-left: 10%;
+}
+	nav ul li ul {
+			    display: none;
+			    position: relative;
+			}
+	nav ul li:hover ul {
+			    display: block;
+				width: 100%;
+			}
+			nav ul li {
+			    min-width: 180px;
+			    float:none;
+			    display:list-item;
+			    position: relative;
+			}
+		nav ul li ul a:hover {
+		color: #FFFFFF;
+		text-shadow: #FFFF00 0px 0 10px;
+		background-color: #1134A6;
+		}
+		nav ul li a {
+			color: #FFF;
+			text-shadow:#1134A6 0px 0 10px;
+		}
+.klk {
+	font-size: 30px;
+	font-family: Avignon Pro;
+	text-align: justify;
+	margin-bottom: -15px;
+	margin-top: 20px;
+	background-color: #0a1d5c;
+	padding: 0 20px 20px 20px;
+	color: #FFF;
+	margin-left: 10%;
+	margin-right: 0;
+	padding-top: -40px;
+}
+.klk h1 {
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: #FFFF00 0px 0 10px;
+}
+.klk img {
+	float: left;
+	margin: 20px 20px 20px 0px;
+	box-shadow: #FFF 0px 0 20px;
+}
+a {
+	text-decoration: none;
+}	
+a:hover {
+	text-decoration: none;
+	text-shadow: #FFFF00 0px 0 10px;
+}
+h1 a:hover {
+	color: #1134A6;
+}
+h1 a {
+	color: #1134A6;
+}
+.klk table td {
+	color: #FFFFFF;
+	width = 30%;
+	border: 0px solid #fff;
+	text-align: justify;
+	padding: 10px;
+	border-bottom: 1px solid #1134A6;
+	border-bottom-style: dotted;
+}
+footer {
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 12px;
+	background-color: #ffcc00;
+	height: 6.5%;
+	width: 100%;
+	padding: 0px;
+}
+footer p {
+	margin-left: 11.5%;
+}
